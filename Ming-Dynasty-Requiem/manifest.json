@@ -1,3 +1,71 @@
 {
-  "version": "2.2.3c"
+  "version": "2.3.0",
+  "hash": "8b55318",
+  "payload": [
+    [
+      "script/mvu_zod.js",
+      "3d2943fd066b77542728cb0e62250722",
+      "脚本/MVU变量结构"
+    ],
+    [
+      "script/mvu_update.js",
+      "078cc902ad7e5c9686971c7c073003b3",
+      "脚本/变量更新处理"
+    ],
+    [
+      "script/lore.js",
+      "5b85290ebd8bd6295210c3c2bf458d83",
+      "世界书/新函数库🛠️"
+    ],
+    [
+      "lore/rule-character.yaml",
+      "c4867559a495a7b0affaf756f7d59c92",
+      "世界书/数据·人物"
+    ],
+    [
+      "lore/rule-history.yaml",
+      "74e6e60f54c9b58e77e144ff30c08dbf",
+      "世界书/数据·历史洪流"
+    ],
+    [
+      "lore/rule-plot.yaml",
+      "155237bff1e39b8286e658a348a1c41e",
+      "世界书/规则·剧情要点"
+    ],
+    [
+      "lore/rule-girl-trigger.yaml",
+      "f270695cb6b2fe31362a4959fa5b6796",
+      "世界书/规则·红颜登场"
+    ],
+    [
+      "lore/rule-favor-tag.yaml",
+      "f5f446e6eb10401b04da2a2c70d5f22d",
+      "世界书/规则·好感度·标签"
+    ],
+    [
+      "lore/rule-favor-family.yaml",
+      "2b604cc06208b3f20f9be5de65cd7bd6",
+      "世界书/规则·好感度·亲属"
+    ],
+    [
+      "lore/rule-favor-girl.yaml",
+      "b3c9edf38b14f5a215ab5812a5bf6551",
+      "世界书/规则·好感度·红颜"
+    ],
+    [
+      "lore/rule-favor-underling.yaml",
+      "43fcbf0d9f9f05e5522f93d0ccb6ccdb",
+      "世界书/规则·好感度·麾下"
+    ],
+    [
+      "lore/rule-favor-friend.yaml",
+      "d8ff712821578ffd3f6d2821022b3733",
+      "世界书/规则·好感度·朝野"
+    ],
+    [
+      "regexp/statusbar.html",
+      "daed4eae43ac5b4035b771d3b973f2aa",
+      "正则/新状态栏"
+    ]
+  ]
 }
