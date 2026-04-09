@@ -1,113 +1,113 @@
 class w{static CITY_DATA={"顺天府":{seal:"北平",title:"京师·顺天府",content:"大明北都，政治中枢。然内有党争倾轧，外有边患之忧。辽东烽火连天，流寇渐成气候，京城之中暗流涌动，人心惶惶。"},"应天府":{seal:"金陵",title:"南都·应天府",content:"大明留都，天下财赋之源。秦淮风月，才子佳人，一派繁华景象。东林、复社议论国事，与魏忠贤遗党斗争不休，亦是舆论风暴之眼。"},"辽东":{seal:"辽阳",title:"辽东都司",content:"九边之首，大明抵御后金之屏障。萨尔浒大败后，明军退守关宁锦防线。袁崇焕、祖大寿等在此苦苦支撑。"},"山海关":{seal:"天下关",title:"山海关",content:"天下第一关。连接华北与东北的咽喉要道，关宁锦防线之最终倚靠。"},"宣府":{seal:"宣镇",title:"宣府镇",content:"九边之一，京师西北门户，用以防御蒙古诸部。"},"济南府":{seal:"齐鲁",title:"山东·济南府",content:"山东布政使司驻地，文风鼎盛。京杭大运河穿境而过，是南北漕运之要地。"},"太原府":{seal:"三晋",title:"山西·太原府",content:"山西布政使司驻地。晋商纵横天下，汇通八方。然崇祯年间大旱连年，是流寇滋生之温床。"},"开封府":{seal:"中州",title:"河南·开封府",content:"河南布政使司驻地，中原腹心。流寇与官军拉锯之主战场。"},"西安府":{seal:"关中",title:"陕西·西安府",content:"陕西布政使司驻地。连年大旱，高迎祥、李自成、张献忠等皆起于此地。"},"成都府":{seal:"天府",title:"四川·成都府",content:"四川布政使司驻地。蜀道艰难，自成一国。奢安之乱虽平，川地元气未复。"},"武昌府":{seal:"湖广",title:"湖广·武昌府",content:"湖广布政使司驻地，扼长江中游。左良玉拥兵自重，名为官军，实为军阀。"},"南昌府":{seal:"豫章",title:"江西·南昌府",content:"江西布政使司驻地。文风颇盛，商贸繁荣，朝廷财赋重要来源。"},"杭州府":{seal:"钱塘",title:"浙江·杭州府",content:"浙江布政使司驻地，人间天堂。丝绸茶叶贸易兴盛，江南最富庶之地。"},"福州府":{seal:"榕城",title:"福建·福州府",content:"福建布政使司驻地。郑芝龙等海上巨擘以此为基地，控制东亚海上贸易。"},"广州府":{seal:"岭南",title:"广东·广州府",content:"广东布政使司驻地。与葡萄牙在澳门通商，帝国对外贸易重要窗口。"},"桂林府":{seal:"八桂",title:"广西·桂林府",content:"广西布政使司驻地。山多地少，民风彪悍，土司与朝廷冲突时有发生。"},"云南府":{seal:"滇南",title:"云南·云南府",content:"云南布政使司驻地。沐王府世代镇守，土司林立，矿产丰富。"},"贵阳府":{seal:"黔中",title:"贵州·贵阳府",content:"贵州布政使司驻地。奢安之乱虽被平定，贵州元气大伤，百废待兴。"}};static CITIES_GEO={"顺天府":[116.4,39.9],"应天府":[118.78,32.04],"辽东":[123.18,41.27],"山海关":[119.77,40],"宣府":[114.88,40.82],"济南府":[117,36.65],"太原府":[112.49,37.7],"开封府":[114.35,34.79],"西安府":[108.94,34.27],"成都府":[104.07,30.67],"武昌府":[114.3,30.59],"南昌府":[115.86,28.68],"杭州府":[120.15,30.29],"福州府":[119.3,26.08],"广州府":[113.26,23.13],"桂林府":[110.16,25.35],"云南府":[102.68,25.04],"贵阳府":[106.71,26.57],"大同":[113.26,40.12],"保定":[115.47,38.87],"延安":[109.49,36.6],"凤阳":[117.56,32.87],"苏州":[120.62,31.31],"扬州":[119.42,32.39],"镇江":[119.45,32.2],"常州":[119.97,31.81],"松江":[121.24,31],"徐州":[117.18,34.26],"合肥":[117.3,31.9],"安庆":[117.05,30.53],"荆州":[112.24,30.33],"襄阳":[112.14,32.04],"长沙":[112.97,28.2],"赣州":[114.93,25.83],"泉州":[118.68,24.87],"潮州":[116.63,23.66],"汉中":[107.03,33.07],"兰州":[103.83,36.06],"宁夏":[106.27,38.47],"嘉峪关":[98.3,39.8],"登州":[120.75,37.8],"宁远":[120.73,40.91],"锦州":[121.13,41.1],"赫图阿拉":[124.86,41.84],"京城":[126.98,37.57],"京都":[135.77,35.02],"大坂":[135.5,34.69],"江户":[139.69,35.69],"热兰遮城":[120.27,23],"濠镜":[113.55,22.19],"升龙":[105.85,21.02],"阿瓦":[96.1,21.85]};static FACTION_COLORS={"大明":{color:"#4a90d9",border:"#1a1210"},"后金":{color:"#d94a4a",border:"#1a1210"},"流寇":{color:"#e8a84d",border:"#1a1210"},"藩属":{color:"#a0705a",border:"#1a1210"},"外国":{color:"#c0c0c0",border:"#1a1210"}};static LOC_ALIASES={"顺天府":["北京","京师","顺天","北平"],"应天府":["南京","应天","金陵","江宁"],"辽东":["辽东","辽阳","广宁"],"山海关":["山海关"],"宣府":["宣府","宣化"],"济南府":["济南","山东"],"太原府":["太原","山西"],"开封府":["开封","河南","汴梁"],"西安府":["西安","陕西","长安","关中"],"成都府":["成都","四川","蜀"],"武昌府":["武昌","湖广","楚"],"南昌府":["南昌","江西","豫章"],"杭州府":["杭州","浙江","临安","钱塘"],"福州府":["福州","福建","闽"],"广州府":["广州","广东","粤"],"桂林府":["桂林","广西"],"云南府":["云南府","昆明","云南"],"贵阳府":["贵阳","贵州","黔中"],"大同":["大同"],"保定":["保定"],"延安":["延安"],"凤阳":["凤阳","中都"],"苏州":["苏州","姑苏"],"扬州":["扬州"],"松江":["松江","上海"],"赫图阿拉":["赫图阿拉","建州","后金"],"京城":["朝鲜","京城","汉城"]};chart=null;dom=null;allCities={};factionData={};activeD=[];bind=!1;getValue(q,F=null){return _.get(getAllVariables(),`stat_data.${q}`,F)}getCity(q){return this.allCities[q]}prepare(q,F){if(this.allCities=F?Object.entries(F).filter(([,A])=>A?.坐标?.length===2).reduce((A,[G,L])=>{if(!A[G])A[G]=L.坐标;return A},{...w.CITIES_GEO}):{...w.CITIES_GEO},this.factionData=Object.entries(this.allCities).filter(([A])=>A!==q).reduce((A,[G,L])=>{let J=F?.[G]?.控制方||"大明";return A[A[J]?J:"大明"].push({name:G,value:this.allCities[G]}),A},{"大明":[],"后金":[],"流寇":[],"藩属":[],"外国":[]}),this.activeD=[],q&&this.allCities[q])this.activeD.push({name:q,value:this.allCities[q]})}constructor(q){let F=this.getValue("地图标记",{});if(this.dom=document.getElementById("echarts-map"),!this.dom||typeof echarts>"u"||typeof WORLD_1629>"u")return;echarts.registerMap("world_1629",WORLD_1629),this.chart=echarts.init(this.dom),this.prepare(q,F);let A=q&&this.allCities[q]?this.allCities[q]:[110,33],G={show:!0,formatter:"{b}",position:"top",color:"#e3c193",fontSize:10,fontFamily:"Noto Serif SC, serif",textBorderColor:"#000",textBorderWidth:2},L=w.FACTION_COLORS;if(this.chart.setOption({backgroundColor:"transparent",geo:{map:"world_1629",roam:!0,scaleLimit:{min:1.2,max:20},center:A,zoom:18,label:{show:!1},itemStyle:{areaColor:"rgba(42,36,32,0.85)",borderColor:"rgba(227,193,147,0.45)",borderWidth:1},emphasis:{itemStyle:{areaColor:"rgba(60,50,44,0.95)",borderColor:"rgba(227,193,147,0.8)",borderWidth:1.5},label:{show:!0,color:"#e3c193",fontSize:12}},select:{disabled:!0},regions:[{name:"南海诸岛",itemStyle:{opacity:0},label:{show:!1}}]},series:[...[{name:"大明",label:$.extend({},G,{color:"#8ab4e8"})},{name:"后金",symbol:"diamond",label:$.extend({},G,{color:"#e88a8a"})},{name:"流寇",symbol:"triangle",label:$.extend({},G,{color:"#f0c475"})},{name:"藩属",symbolSize:8,label:$.extend({},G,{color:"#b0978a",fontSize:9})},{name:"外国",symbol:"triangle",symbolSize:8,label:$.extend({},G,{color:"#d0d0d0",fontSize:9})}].map((J)=>{return{type:"scatter",coordinateSystem:"geo",data:this.factionData[J.name],itemStyle:{color:L[J.name].color,borderColor:L[J.name].border,borderWidth:1},...J,zlevel:2}}),{name:"当前位置",type:"effectScatter",coordinateSystem:"geo",data:this.activeD,symbolSize:16,showEffectOn:"render",rippleEffect:{brushType:"fill",scale:5,period:2},itemStyle:{color:"#3CFF84",borderColor:"#fff",borderWidth:1.5},label:$.extend({},G,{color:"#fff",fontSize:12,fontWeight:"bold"}),zlevel:3}]}),!this.bind){let J=this;this.chart.on("click","series",(O)=>{let W=this.getValue("地图标记",{}),X=O.name,Y=W[X]||null,B=w.CITY_DATA[X],U=Y?.描述||B?.content||"",T=Y?.控制方||""||(B?.seal||X);if(!U)U="此地尚无讯息传来。";let E="";if(Y){if(Y?.城镇等级)E+='<div class="section-title">'+Y.城镇等级+"</div>";if(Y?.治安)E+='<div class="city-stat">治安：'+Y.治安+"</div>";if(Y?.经济)E+='<div class="city-stat">经济：'+Y.经济+"</div>";if(Y?.特色&&Y?.特色.length>0)E+='<div class="city-feat">【'+Y.特色.join(" · ")+"】</div>"}E+='<div class="city-desc">'+U+"</div>";let z='<div style="color:#8c6f46;font-style:italic">尚无已知路线</div>',I=Object.entries(J.getValue("交通路线",{})).filter(([,Z])=>Z?.起点===X||Z?.终点===X);if(I.length>0)router=I.map((Z)=>{return['<div class="route-card">',`<div class="route-dest">→${Z.data.起点===X?Z.data.终点:Z.data.起点}'</div>`,`<div class="route-detail">${Z.data.方式}</div>`,`<div class="route-detail">${Z.data.行程}</div>`,Z.data?.风险!=="安全"?`<div class="route-warn">⚠ ${Z.data.风险}</div>`:"","</div>"].join("")}).join("");$("#modal-title").text(X),$("#modal-seal").text(T),$("#modal-panel-info").html(E),$("#modal-panel-route").html(z),$(".modal-tab").removeClass("active"),$('.modal-tab[data-tab="info"]').addClass("active"),$(".modal-panel").removeClass("active"),$("#modal-panel-info").addClass("active"),$("#modal-overlay").css("display","flex"),setTimeout(()=>{$("#modal-scroll").addClass("visible")},10)}),$("#modal-header").on("click",".modal-tab",(O)=>{var W=$(O.target).attr("data-tab");$(".modal-tab").removeClass("active"),$(O.target).addClass("active"),$(".modal-panel").removeClass("active"),$("#modal-panel-"+W).addClass("active")}),$("#modal-overlay").on("click",(O)=>{if(O.target.id==="modal-overlay")$("#modal-scroll").removeClass("visible"),setTimeout(()=>{$("#modal-overlay").css("display","none")},600)}),$(window).on("resize",()=>{J.resize()}),this.bind=!0}}resize(){this.chart.resize()}static matchLocation(q){return Object.entries(w.LOC_ALIASES).find(([,F])=>F.some((A)=>q.includes(A)))?.[0]||null}}class Q{static ICONS={identity:'<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#e3c193" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20a6 6 0 0 0-12 0" /><circle cx="12" cy="10" r="4" /><circle cx="12" cy="12" r="10" /></svg>',reputation:'<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#e3c193" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /><path d="m9 12 2 2 4-4" /></svg>',title:'<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></svg>',health:'<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/><path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></svg>',status:'<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="display: inline-block;vertical-align: middle"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>&nbsp;',thought:'<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="display: inline-block;vertical-align: middle"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M8 12h.01"/><path d="M12 12h.01"/><path d="M16 12h.01"/></svg>&nbsp;',delete_relation:'<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18.84 12.25 1.72-1.71h-.02a5.004 5.004 0 0 0-.12-7.07 5.006 5.006 0 0 0-6.95 0l-1.72 1.71"/><path d="m5.17 11.75-1.71 1.71a5.004 5.004 0 0 0 .12 7.07 5.006 5.006 0 0 0 6.95 0l1.71-1.71"/><line x1="8" x2="8" y1="2" y2="5"/><line x1="2" x2="5" y1="8" y2="8"/><line x1="16" x2="16" y1="19" y2="22"/><line x1="19" x2="22" y1="16" y2="16"/></svg>',relink_relation:'<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>',coin:'<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13.744 17.736a6 6 0 1 1-7.48-7.48"/><path d="M15 6h1v4"/><path d="m6.134 14.768.866-.5 2 3.464"/><circle cx="16" cy="8" r="6"/></svg>',food:'<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22 16 8"/><path d="M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"/><path d="M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"/><path d="M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"/><path d="M20 2h2v2a4 4 0 0 1-4 4h-2V6a4 4 0 0 1 4-4Z"/><path d="M11.47 17.47 13 19l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L5 19l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z"/><path d="M15.47 13.47 17 15l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L9 15l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z"/><path d="M19.47 9.47 21 11l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L13 11l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z"/></svg>',shop:'<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5"/><path d="M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244"/><path d="M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05"/></svg>',army:'<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" x2="19" y1="19" y2="13"/><line x1="16" x2="20" y1="16" y2="20"/><line x1="19" x2="21" y1="21" y2="19"/><polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"/><line x1="5" x2="9" y1="14" y2="18"/><line x1="7" x2="4" y1="17" y2="20"/><line x1="3" x2="5" y1="19" y2="21"/></svg>',box:'<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>',delete_asset:'<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 11v6"/><path d="M14 11v6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/><path d="M3 6h18"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>',trans_asset:'<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="7" r="1"/><circle cx="4" cy="20" r="1"/><path d="M4.7 19.3 19 5"/><path d="m21 3-3 1 2 2Z"/><path d="M9.26 7.68 5 12l2 5"/><path d="m10 14 5 2 3.5-3.5"/><path d="m18 12 1-1 1 1-1 1Z"/></svg>'};static PORTRAITS={"艾弥斯":"https://files.catbox.moe/h2o8m2.jpg","艾弥斯·冯·施瓦茨贝格":"https://files.catbox.moe/h2o8m2.jpg","朱徽媞":"https://files.catbox.moe/1ghgof.jpg","爱新觉罗·雅沁":"https://files.catbox.moe/pjt1gh.jpg","雅沁":"https://files.catbox.moe/pjt1gh.jpg","顾眉":"https://files.catbox.moe/pdgn2k.jpg","博尔济吉特·乌云娜":"https://files.catbox.moe/m3glv8.jpg","乌云娜":"https://files.catbox.moe/m3glv8.jpg","卓文茵":"https://files.catbox.moe/a2tpi9.jpg","钱芷沅":"https://files.catbox.moe/zhfm0e.jpg","田氏":"https://files.catbox.moe/d0dwfo.jpg","周皇后":"https://files.catbox.moe/38brpo.jpg"};constructor(){this.drawAll()}showConfirmModal(q,F,A,G){$("#confirm-target-action").text(q),$("#confirm-target-name").text(F),$("#btn-confirm-delete").text(A),$("#confirm-modal-overlay").css("display","flex"),$("#btn-confirm-delete").off("click").on("click",()=>{if($("#confirm-modal-overlay").hide(),G)G()}),$("#btn-cancel-delete").off("click").on("click",()=>{$("#confirm-modal-overlay").hide()})}updateBackground(){let q=this.getValue("世界信息.农历.时辰","酉"),F={morning:["卯","辰","巳"],noon:["午"],afternoon:["未","申"],evening:["酉","戌","亥","子","丑","寅"]},A={morning:"https://files.catbox.moe/a3969r.jpg",noon:"https://files.catbox.moe/49rnaf.jpg",afternoon:"https://files.catbox.moe/gxq3tc.jpg",evening:"https://files.catbox.moe/fug2s7.jpg"},G="evening";for(let L in F)if(F[L].some((J)=>q.includes(J)))G=L;return $("#bg-layer").css("background-image",`url('${A[G]}')`),this}updateTimeAndLocation(){let q=this.getValue("世界信息.农历"),F=`${q.年份||""}·${q.季节||""}·${q.月||""}·${q.日||""}·${q.时辰||""}`,A=this.getValue("世界信息.当前地点","不知所踪");$("#time-subtitle").text(F),this.updateBackground(q.时辰||"");let G=w.matchLocation(A);if(G)$("#map-subtitle").html('身处 ◈ <span style="color:#fff;">'+G+"</span>");if(!this.map)try{this.map=new w(G)}catch(L){console.error(L)}return this}updateIdentity(){let q=this.getValue("个人属性.核心身份",[]),F=this.getValue("个人属性.身份",[]),A=q.length>0?q:F;return $("#val-identity").text(A.length>0?A.join("·"):"----"),this}updateTitle(){let q=this.getValue("个人属性.称号",[]);return $("#val-title").text(q.length>0?q.join("·"):"----"),this}updateReputation(){let q=this.getValue("个人属性._名声",0),F=this.getValue("个人属性._风评",0),A=F>=0?"positive":"negative";return $("#val-reputation").html(`名声 (<span class="${A}">${q}</span>) 风评 (<span class="${A}">${F}</span>)`),this}updateHealth(){let q=this.getValue("个人属性.身体状态","---");return $("#val-health").text(q),this}updateSalary(){let q=this.getValue("个人属性.月支俸禄",{});return $("#val-salary-silver").text(Q.num2chs(q.白银||0,"两")),$("#val-salary-grain").text(Q.num2chs(q.粮草||0,"石")),$("#val-salary-desc").text(q.说明||"无"),this}updatePriv(){let q=this.getValue("个人属性.私库累计",{});return $("#val-priv-silver").text(Q.num2chs(q.白银||0,"两")),$("#val-priv-grain").text(Q.num2chs(q.粮草||0,"石")),$("#val-priv-desc").text(q.说明||"无"),this}static num2chs(q,F=""){if(q===0)return"无";if(Math.abs(q)<1)return`${q<0?"亏·":""}不足一${F}`;q=Math.floor(q);let A=["零","一","二","三","四","五","六","七","八","九"],G=["","十","百","千"],L=["","万","亿","兆","京"],J=Math.abs(q).toString(),O="",W=!1;for(let X=0;X<J.length;X++){let Y=parseInt(J[X],10),B=J.length-1-X,U=B%4,j=Math.floor(B/4);if(Y===0){if(W=!0,U===0){let T=!1,E=Math.max(0,X-3);for(let z=E;z<=X;z++)if(J[z]!=="0"){T=!0;break}if(T&&j>0)O+=L[j],W=!1}}else{if(W)O+=A[0],W=!1;if(O+=A[Y]+G[U],U===0&&j>0)O+=L[j]}}if(O.startsWith("一十"))O=O.substring(1);return q<0?`亏·${O}${F}`:O+F}getAssetInfo(q){let F=q.兑换,A=[];switch(F.类型){case"杂物":return`<div class="asset-desc">${q.说明||"无说明"}</div>`;case"钱粮兑换":return`<div class="asset-desc">
-${q.说明?`${q.说明}<br>`:""}
-总价值：${Q.num2chs((F.比例||1)*q.数量,F.目标类型==="粮草"?"石":"两")}
-</div>`;case"产业":return A=[F?.详情?.产出说明?`产出：${F.详情.产出说明}`:"",F?.详情?.月收入?`收入：${Q.num2chs((F?.详情?.月收入||0)*q.数量,F?.详情?.收入类型==="粮草"?"石":"两")}`:"",F?.详情?.月成本?`成本：${Q.num2chs((F?.详情?.月成本||0)*q.数量,"两")}`:""].filter((G)=>G!=="").join("；"),`<div class="asset-desc">
-${q.说明?`${q.说明}<br>`:""}${A}
-</div>`;case"部队":return A=[F?.详情?.规模?`兵力：${F.详情.规模} ${F.详情?.训练度?`(${F.详情.训练度})`:""}`:"",F?.详情?.装备?`装备：${F.详情.装备}`:"",F?.详情?.每月军饷||F?.详情?.每月粮耗?"月饷："+[F?.详情?.每月军饷?`银${Q.num2chs(F.详情.每月军饷*q.数量,"两")}`:"",F?.详情?.每月粮耗?`粮${Q.num2chs(F.详情.每月粮耗*q.数量,"石")}`:""].filter((G)=>G!=="").join("、"):""].filter((G)=>G!=="").join("；"),`<div class="asset-desc">
-${q.说明?`${q.说明}<br>`:""}${A}
-</div>`;default:return""}}updateAssets(){let q=this.getValue("核心资产",{}),F=Object.entries(q),A="",G={杂物:Q.ICONS.box,产业:Q.ICONS.shop,部队:Q.ICONS.army};if(F.length>0)A=F.map(([J,O])=>{let W=O.兑换?.类型,X=O.兑换?.动作,Y=O.兑换?.详情?.目标类型,B=W==="杂物"||!X?"舍弃":X,U=W!=="钱粮兑换"?G[W]:Y==="粮草"?Q.ICONS.food:Q.ICONS.coin;return`<div class="asset-card" data-asset-name="${J}">
-<div class="asset-name">
-<div class="asset-title-group">
-${U}&nbsp;
-<div class="asset-title-content">
-<span>${J}</span>&nbsp;&nbsp;
-<button class="asset-delete-btn" data-name="${J}" title="${B}此物">[${B}]</button>
-</div>
-</div>
-<span class="asset-tag">x${O.数量||1}</span>
-</div>
-${O?.兑换?this.getAssetInfo(O):""}
-</div>`}).join("");else A='<div class="faction-empty" style="grid-column: 1 / -1;">空空如也，暂无随身重器</div>';$("#list-assets").html(A);let L=this;return $(".asset-delete-btn").off("click").on("click",function(){let J=$(this).data("name"),O=L.getValue(`核心资产.${J}.兑换.动作`,"舍弃"),W=$(this).closest(".asset-card");L.showConfirmModal(O,J,O,()=>L.removeAsset(J,W))}),this}searchUnusedSerialNumber(q,F,A="字",G="千字文"){let L;if(G==="千字文")L=["天","地","玄","黄","宇","宙","洪","荒","日","月","盈","昃","辰","宿","列","张","寒","来","暑","秋","收","冬","藏","闰","余","成","岁","律","吕","调","阳","云","腾","致","雨","露","结","为","霜","金","生","丽","水","玉","出","昆","岗","剑","号","巨","阙","珠","称","夜","光","果","珍","李","奈","菜","重","芥","姜"];for(let J of L){let O=`${q}·${J}${A}`;if(!F[O])return O}throw Error("千字文已满，无法再添加")}addSerialNumber(q,F,A="字",G="千字文"){if(F[q])return this.searchUnusedSerialNumber(q,F,A,G);else return q}async removeAsset(q,F){try{let A=Mvu.getMvuData({type:"message",message_id:"latest"}),G=A.stat_data.核心资产[q],L=A.stat_data.本轮用户操作,J;if(G){switch(G.兑换?.类型){case"钱粮兑换":let O=G.数量*(G.兑换.比例||1);if(G.兑换.目标类型==="粮草")A.stat_data.个人属性.私库累计.粮草+=O;else A.stat_data.个人属性.私库累计.白银+=O;L.push(`${G.兑换?.动作||"兑换"} ${G.数量>1?`${G.数量} 个 ${q}`:q}，兑换得 ${O} ${G.兑换.目标类型==="粮草"?"石粮草":"两白银"}`);break;case"产业":J=this.addSerialNumber(G.兑换.详情.产业名,A.stat_data.势力总览.产业),A.stat_data.势力总览.产业[J]=G.兑换.详情,delete G.兑换.详情.产业名,L.push(`交接 ${q}，获得产业 ${J}`);break;case"部队":J=this.addSerialNumber(G.兑换.详情.部队名,A.stat_data.势力总览.部曲),A.stat_data.势力总览.部曲[J]=G.兑换.详情,delete G.兑换.详情.部队名,L.push(`交接 ${q}，获得部队 ${J}`);break;default:L.push(`舍弃 ${q>1?`${G.数量} 个 ${q}`:q}`)}delete A.stat_data.核心资产[q],await Mvu.replaceMvuData(A,{type:"message",message_id:"latest"})}}catch(A){toastr.error("删除随身重器失败: "+A.message);return}this.updateSummary().updatePriv().updatePubStorage().updateIndustry().updateForce(),F.addClass("fade-out"),setTimeout(async()=>{if(F.remove(),$("#list-assets .asset-card").length===0)$("#list-assets").html('<div class="faction-empty" style="grid-column: 1 / -1;">空空如也，暂无随身重器</div>')},500)}getForceItem(q,F,A,G="",L=""){return`<div class="card-line ${L}">
-<span class="card-label">${q}:</span>
-<span class="card-value ${G}">${F||A}</span>
-</div>`}updateIndustry(){let q=this.getValue("势力总览.产业",{}),F=Object.entries(q).map(([A,G])=>`
-<div class="industry-card">
-<div class="card-title">${A}</div>
-${this.getForceItem("产出说明",G.产出说明,"---","","card-width-100")}
-${this.getForceItem("月支出",Q.num2chs(G.月成本,"两"),0,"expense","card-width-b180")}
-${this.getForceItem("月收入",Q.num2chs(G.月收入,G.收入类型==="粮草"?"石":"两"),0,"income","card-width-b180")}
-</div>`).join("");if(F.trim()==="")F='<div class="faction-empty">暂无产业</div>';return $("#list-industries").html(F),this}updateForce(){let q=this.getValue("势力总览.部曲",{}),F=Object.entries(q).map(([A,G])=>`
-<div class="force-card">
-<div class="card-title">${A} ${G.装备?`（${G.装备}）`:""}</div>
-${this.getForceItem("兵力",G.规模,"---","","card-width-100")}
-${this.getForceItem("训练度",G.训练度,"未知","","card-width-b180")}
-${this.getForceItem("月饷银",Q.num2chs(G.每月军饷,"两"),0,"expense","card-width-b180")}
-${this.getForceItem("月粮耗",Q.num2chs(G.每月粮耗,"石"),0,"expense","card-width-b180")}
-</div>`).join("");if(F.trim()==="")F='<div class="faction-empty">暂无兵马</div>';return $("#list-forces").html(F),this}updateSummary(){let q=this.getValue("个人属性.月度总结",{}),F=q._白银?q._白银:q.白银||{},A=q._粮草?q._粮草:q.粮草||{};$("#val-sil-in").text(`${Q.num2chs(F.总收入||0,"两")}`),$("#val-sil-out").text(`${Q.num2chs(F.总支出||0,"两")}`);let G=F.总收入-F.总支出||0;$("#val-sil-net").text(Q.num2chs(G,"两")).removeClass("income expense").addClass(G>=0?"income":"expense"),$("#val-grn-in").text(`${Q.num2chs(A.总收入||0,"石")}`),$("#val-grn-out").text(`${Q.num2chs(A.总支出||0,"石")}`);let L=A.总收入-A.总支出||0;return $("#val-grn-net").text(Q.num2chs(L,"石")).removeClass("income expense").addClass(L>=0?"income":"expense"),$("#val-summary-desc").text(q.说明||"平稳运转"),this}updatePubStorage(){let q=this.getValue("个人属性.府库累计",{});return $("#val-pub-silver").text(`${Q.num2chs(q.白银||0,"两")}`),$("#val-pub-grain").text(`${Q.num2chs(q.粮草||0,"石")}`),$("#val-pub-desc").text(q.说明||"无说明"),this}updateEvents(){let q=this.getValue("天下暗流",[]),F=q.length>0?q.reverse().map((A)=>`
-<div class="bg-event-item">
-<div class="bg-event-title">${A.地点}</div>
-<div class="bg-event-text">${A.事件}</div>
-</div>`).join(`
+              ${q.说明?`${q.说明}<br>`:""}
+              总价值：${Q.num2chs((F.比例||1)*q.数量,F.目标类型==="粮草"?"石":"两")}
+            </div>`;case"产业":return A=[F?.详情?.产出说明?`产出：${F.详情.产出说明}`:"",F?.详情?.月收入?`收入：${Q.num2chs((F?.详情?.月收入||0)*q.数量,F?.详情?.收入类型==="粮草"?"石":"两")}`:"",F?.详情?.月成本?`成本：${Q.num2chs((F?.详情?.月成本||0)*q.数量,"两")}`:""].filter((G)=>G!=="").join("；"),`<div class="asset-desc">
+              ${q.说明?`${q.说明}<br>`:""}${A}
+            </div>`;case"部队":return A=[F?.详情?.规模?`兵力：${F.详情.规模} ${F.详情?.训练度?`(${F.详情.训练度})`:""}`:"",F?.详情?.装备?`装备：${F.详情.装备}`:"",F?.详情?.每月军饷||F?.详情?.每月粮耗?"月饷："+[F?.详情?.每月军饷?`银${Q.num2chs(F.详情.每月军饷*q.数量,"两")}`:"",F?.详情?.每月粮耗?`粮${Q.num2chs(F.详情.每月粮耗*q.数量,"石")}`:""].filter((G)=>G!=="").join("、"):""].filter((G)=>G!=="").join("；"),`<div class="asset-desc">
+              ${q.说明?`${q.说明}<br>`:""}${A}
+            </div>`;default:return""}}updateAssets(){let q=this.getValue("核心资产",{}),F=Object.entries(q),A="",G={杂物:Q.ICONS.box,产业:Q.ICONS.shop,部队:Q.ICONS.army};if(F.length>0)A=F.map(([J,O])=>{let W=O.兑换?.类型,X=O.兑换?.动作,Y=O.兑换?.详情?.目标类型,B=W==="杂物"||!X?"舍弃":X,U=W!=="钱粮兑换"?G[W]:Y==="粮草"?Q.ICONS.food:Q.ICONS.coin;return`<div class="asset-card" data-asset-name="${J}">
+              <div class="asset-name">
+                <div class="asset-title-group">
+                  ${U}&nbsp;
+                  <div class="asset-title-content">
+                    <span>${J}</span>&nbsp;&nbsp;
+                    <button class="asset-delete-btn" data-name="${J}" title="${B}此物">[${B}]</button>
+                  </div>
+                </div>
+                <span class="asset-tag">x${O.数量||1}</span>
+              </div>
+              ${O?.兑换?this.getAssetInfo(O):""}
+            </div>`}).join("");else A='<div class="faction-empty" style="grid-column: 1 / -1;">空空如也，暂无随身重器</div>';$("#list-assets").html(A);let L=this;return $(".asset-delete-btn").off("click").on("click",function(){let J=$(this).data("name"),O=L.getValue(`核心资产.${J}.兑换.动作`,"舍弃"),W=$(this).closest(".asset-card");L.showConfirmModal(O,J,O,()=>L.removeAsset(J,W))}),this}searchUnusedSerialNumber(q,F,A="字",G="千字文"){let L;if(G==="千字文")L=["天","地","玄","黄","宇","宙","洪","荒","日","月","盈","昃","辰","宿","列","张","寒","来","暑","秋","收","冬","藏","闰","余","成","岁","律","吕","调","阳","云","腾","致","雨","露","结","为","霜","金","生","丽","水","玉","出","昆","岗","剑","号","巨","阙","珠","称","夜","光","果","珍","李","奈","菜","重","芥","姜"];for(let J of L){let O=`${q}·${J}${A}`;if(!F[O])return O}throw Error("千字文已满，无法再添加")}addSerialNumber(q,F,A="字",G="千字文"){if(F[q])return this.searchUnusedSerialNumber(q,F,A,G);else return q}async removeAsset(q,F){try{let A=Mvu.getMvuData({type:"message",message_id:"latest"}),G=A.stat_data.核心资产[q],L=A.stat_data.本轮用户操作,J;if(G){switch(G.兑换?.类型){case"钱粮兑换":let O=G.数量*(G.兑换.比例||1);if(G.兑换.目标类型==="粮草")A.stat_data.个人属性.私库累计.粮草+=O;else A.stat_data.个人属性.私库累计.白银+=O;L.push(`${G.兑换?.动作||"兑换"} ${G.数量>1?`${G.数量} 个 ${q}`:q}，兑换得 ${O} ${G.兑换.目标类型==="粮草"?"石粮草":"两白银"}`);break;case"产业":J=this.addSerialNumber(G.兑换.详情.产业名,A.stat_data.势力总览.产业),A.stat_data.势力总览.产业[J]=G.兑换.详情,delete G.兑换.详情.产业名,L.push(`交接 ${q}，获得产业 ${J}`);break;case"部队":J=this.addSerialNumber(G.兑换.详情.部队名,A.stat_data.势力总览.部曲),A.stat_data.势力总览.部曲[J]=G.兑换.详情,delete G.兑换.详情.部队名,L.push(`交接 ${q}，获得部队 ${J}`);break;default:L.push(`舍弃 ${q>1?`${G.数量} 个 ${q}`:q}`)}delete A.stat_data.核心资产[q],await Mvu.replaceMvuData(A,{type:"message",message_id:"latest"})}}catch(A){toastr.error("删除随身重器失败: "+A.message);return}this.updateSummary().updatePriv().updatePubStorage().updateIndustry().updateForce(),F.addClass("fade-out"),setTimeout(async()=>{if(F.remove(),$("#list-assets .asset-card").length===0)$("#list-assets").html('<div class="faction-empty" style="grid-column: 1 / -1;">空空如也，暂无随身重器</div>')},500)}getForceItem(q,F,A,G="",L=""){return`<div class="card-line ${L}">
+          <span class="card-label">${q}:</span>
+          <span class="card-value ${G}">${F||A}</span>
+        </div>`}updateIndustry(){let q=this.getValue("势力总览.产业",{}),F=Object.entries(q).map(([A,G])=>`
+          <div class="industry-card">
+            <div class="card-title">${A}</div>
+            ${this.getForceItem("产出说明",G.产出说明,"---","","card-width-100")}
+            ${this.getForceItem("月支出",Q.num2chs(G.月成本,"两"),0,"expense","card-width-b180")}
+            ${this.getForceItem("月收入",Q.num2chs(G.月收入,G.收入类型==="粮草"?"石":"两"),0,"income","card-width-b180")}
+          </div>`).join("");if(F.trim()==="")F='<div class="faction-empty">暂无产业</div>';return $("#list-industries").html(F),this}updateForce(){let q=this.getValue("势力总览.部曲",{}),F=Object.entries(q).map(([A,G])=>`
+          <div class="force-card">
+            <div class="card-title">${A} ${G.装备?`（${G.装备}）`:""}</div>
+            ${this.getForceItem("兵力",G.规模,"---","","card-width-100")}
+            ${this.getForceItem("训练度",G.训练度,"未知","","card-width-b180")}
+            ${this.getForceItem("月饷银",Q.num2chs(G.每月军饷,"两"),0,"expense","card-width-b180")}
+            ${this.getForceItem("月粮耗",Q.num2chs(G.每月粮耗,"石"),0,"expense","card-width-b180")}
+          </div>`).join("");if(F.trim()==="")F='<div class="faction-empty">暂无兵马</div>';return $("#list-forces").html(F),this}updateSummary(){let q=this.getValue("个人属性.月度总结",{}),F=q._白银?q._白银:q.白银||{},A=q._粮草?q._粮草:q.粮草||{};$("#val-sil-in").text(`${Q.num2chs(F.总收入||0,"两")}`),$("#val-sil-out").text(`${Q.num2chs(F.总支出||0,"两")}`);let G=F.总收入-F.总支出||0;$("#val-sil-net").text(Q.num2chs(G,"两")).removeClass("income expense").addClass(G>=0?"income":"expense"),$("#val-grn-in").text(`${Q.num2chs(A.总收入||0,"石")}`),$("#val-grn-out").text(`${Q.num2chs(A.总支出||0,"石")}`);let L=A.总收入-A.总支出||0;return $("#val-grn-net").text(Q.num2chs(L,"石")).removeClass("income expense").addClass(L>=0?"income":"expense"),$("#val-summary-desc").text(q.说明||"平稳运转"),this}updatePubStorage(){let q=this.getValue("个人属性.府库累计",{});return $("#val-pub-silver").text(`${Q.num2chs(q.白银||0,"两")}`),$("#val-pub-grain").text(`${Q.num2chs(q.粮草||0,"石")}`),$("#val-pub-desc").text(q.说明||"无说明"),this}updateEvents(){let q=this.getValue("天下暗流",[]),F=q.length>0?q.reverse().map((A)=>`
+          <div class="bg-event-item">
+            <div class="bg-event-title">${A.地点}</div>
+            <div class="bg-event-text">${A.事件}</div>
+          </div>`).join(`
 `):'<div class="bg-empty">四海升平</div>';return $("#list-events").html(F),this}updateCrossroad(){let q=this.getValue("历史歧路",[]),F=q.length>0?q.reverse().map((A)=>`
-<div class="crossroad-item">
-<div class="crossroad-header">
-<span class="crossroad-time">${A.时间}</span>
-<span class="crossroad-reason">【${A.缘起}】</span>
-</div>
-<div class="crossroad-content">
-<div class="crossroad-side crossroad-old">
-<span class="crossroad-label">旧貌</span>
-${A.旧貌}
-</div>
-<div class="crossroad-side crossroad-new">
-<span class="crossroad-label">新颜</span>
-${A.新颜}
-</div>
-</div>
-</div>`).join(`
+          <div class="crossroad-item">
+            <div class="crossroad-header">
+              <span class="crossroad-time">${A.时间}</span>
+              <span class="crossroad-reason">【${A.缘起}】</span>
+            </div>
+            <div class="crossroad-content">
+              <div class="crossroad-side crossroad-old">
+                <span class="crossroad-label">旧貌</span>
+                ${A.旧貌}
+              </div>
+              <div class="crossroad-side crossroad-new">
+                <span class="crossroad-label">新颜</span>
+                ${A.新颜}
+              </div>
+            </div>
+          </div>`).join(`
 `):'<div class="bg-empty">史册未改，按轨而行</div>';return $("#list-crossroads").html(F),this}getPercentageBar(q,F,A,G){return`
-<div class="favor-wrapper">
-<span style="font-size:0.8em; color:var(--text-secondary);">${q}</span>
-<div class="favor-bar-container" style="--percent: ${F};">
-<div class="favor-bar-fill ${G}" style="width: ${F}%;"></div>
-</div>
-<span class="favor-text-value ${G}">${A}</span>
-</div>`}getRelationHtml(q,F=!1,A=!1){let G="";for(let[L,J]of q){let{关系:O,身份官职:W}=J,X=A?Q.ICONS.relink_relation:Q.ICONS.delete_relation;if(G+=`
-<div class="rel-card subordinate-card">
-<div class="rel-header">
-<div class="rel-title-group">
-<span class="rel-name">${L}</span>
-<button class="${A?"rel-action-btn restore":"rel-action-btn delete"}" data-name="${L}" title="${A?"恢复联络":"断绝往来"}">${X}</button>
-</div>
-<div class="rel-tags">
-${W?`<span class="rel-tag">${W}</span>`:""}
-${O?`<span class="rel-tag">${O}</span>`:""}
-</div>
-</div>
-<div class="rel-attitude" style="min-height:auto;"><div>
-${[J.当前状态?Q.ICONS.status+J.当前状态:"",J.对你的看法?Q.ICONS.thought+J.对你的看法:""].filter((E)=>E).join("</div><div>")}
-</div></div>
-`,!A&&J.type==="麾下"){let E=J.忠诚度||0,z=Math.max(0,Math.min(100,E));G+=this.getPercentageBar("忠诚",z,E,"positive")}let U=J.好感度||0,j=F?(Math.max(-100,Math.min(100,U))+100)/2:Math.max(0,Math.min(100,U)),T=U>=0?"positive":"negative";G+=this.getPercentageBar("好感",j,U,T),G+="</div>"}return G}getRelation(q,F,A=!1){let G=Object.entries(q).filter(([L,J])=>J.type===F).reverse();if(G.length===0)return`<div class="rel-empty" style="grid-column: 1 / -1; text-align: center;">暂无${F}</div>`;return this.getRelationHtml(G,A,!1)}getDeletedRelation(q){let F=Object.entries(q).reverse();if(F.length===0)return'<div class="rel-empty" style="grid-column: 1 / -1; text-align: center;">查无此人，皆有迹可循</div>';return this.getRelationHtml(F,!1,!0)}updateRelation(){let q=this.getValue("人际网络",{}),F=this.getValue("已删除角色",{});$("#list-subordinates").html(this.getRelation(q,"麾下")),$("#list-family").html(this.getRelation(q,"亲属")),$("#list-lovers").html(this.getRelation(q,"红颜")),$("#list-acquaintances").html(this.getRelation(q,"朝野",!0)),$("#list-deleted").html(this.getDeletedRelation(F));let A=this;return $(".rel-action-btn.delete").off("click").on("click",function(){let G=$(this).data("name"),L=$(this).closest(".rel-card");A.showConfirmModal("断交",G,"断交",()=>A.removeRelation(G,L))}),$(".rel-action-btn.restore").off("click").on("click",function(){let G=$(this).data("name"),L=$(this).closest(".rel-card");A.showConfirmModal("恢复与",G+" 的联络","重联",()=>A.restoreRelation(G,L))}),this}async removeRelation(q,F){try{let A=Mvu.getMvuData({type:"message",message_id:"latest"}),G=A.stat_data.人际网络||{},L=A.stat_data.已删除角色||{};if(G[q])L[q]=G[q],delete G[q],A.stat_data.人际网络=G,A.stat_data.已删除角色=L,await Mvu.replaceMvuData(A,{type:"message",message_id:"latest"})}catch(A){toastr.error("断绝往来失败: "+A.message);return}F.addClass("fade-out"),setTimeout(()=>{this.updateRelation()},500)}async restoreRelation(q,F){try{let A=Mvu.getMvuData({type:"message",message_id:"latest"}),G=A.stat_data.人际网络||{},L=A.stat_data.已删除角色||{};if(L[q])G[q]=L[q],delete L[q],A.stat_data.人际网络=G,A.stat_data.已删除角色=L,await Mvu.replaceMvuData(A,{type:"message",message_id:"latest"})}catch(A){toastr.error("恢复联络失败: "+A.message);return}F.addClass("fade-out"),setTimeout(()=>{this.updateRelation()},500)}updateHousehold(){let q=Object.entries(this.getValue("人际网络",{})).filter(([A,G])=>G.type==="内眷").reverse(),F="";if(q.length>0)for(let[A,G]of q){let L=Q.PORTRAITS[A]||"https://files.catbox.moe/o7pyrr.png",J=G.好感度||0,O=Math.max(0,Math.min(100,J)),W=J>=0?"positive":"negative";F+=`
-<div class="consort-card">
-<div class="card-face card-front">
-<div class="consort-header">
-<span class="consort-name">${A}</span>
-<span class="consort-title">${G.关系||"女眷"}</span>
-</div>
-<div class="consort-details">
-近况：<strong>${G.当前状态||"安居后宅"}</strong><br>
-关注：<strong>${G.对你的看法||"无"}</strong>
-</div>
-<div class="favor-wrapper">
-<span style="font-size:0.8em; color:var(--text-secondary);">好感</span>
-<div class="favor-bar-container" style="--percent: ${O};">
-<div class="favor-bar-fill ${W}" style="width: ${O}%;"></div>
-</div>
-<span class="favor-text-value ${W}">${J}</span>
-</div>
-</div>
-<div class="card-face card-back" style="background-image: url('${L}');"></div>
-</div>`}else F='<div style="grid-column: 1 / -1; text-align: center; padding: 40px 0;"><span class="info-value">暂无女眷入住</span></div>';return $("#list-household").html(F),$(".consort-card").off("click").on("click",function(){$(this).toggleClass("is-flipped")}),this}updatePlots(){let q={is_Adult:"冠礼大典",is_Fighting_Case_Resolved:"打驸马案",is_Married:"大婚仪轨",is_Jin_Retreated:"后金退兵",is_Yuan_Dead:"袁督亡故",is_Brother_Forgiven:"兄弟释怀",is_Sister_Forgiven:"姐妹重拾",is_Gumei_As_Gift:"清音之礼",is_Inheritance_Fight_Resolved:"家产纷争",is_LinDan_Dead:"林丹汗故",is_Jin_Civil_War:"后金内乱",is_HuangTaiji_Dead:"皇太极故"},F=this.getValue("剧情要点",{}),A=Object.entries(F).filter(([L,J])=>J!==!1),G="";if(A.length>0)G=A.reverse().map(([L,J])=>{let O=J.状态==="已完成",W=O?"completed":"triggered",X=(J.进程||[]).map((j)=>`<div class="plot-process-item">${j}</div>`).join(""),Y=`<div class="plot-tag ${W}">${J.状态==="已完成"?"事毕":"事起"}</div>`,B=[];if(J.触发时间)B.push(`起: ${J.触发时间}`);if(O&&J.完成时间)B.push(`结: ${J.完成时间}`);Y+=`<div>${B.join(" | ")}</div>`;let U=O&&J.结果?`<div class="plot-result">【结局】 ${J.结果}</div>`:"";return`
-<div class="plot-item ${W}">
-<div class="plot-header">
-<div class="plot-title">${q[L]||L}</div>
-<div class="plot-meta">${Y}</div>
-</div>
-<div class="plot-content">
-${X}
-${U}
-</div>
-</div>`}).join(`
+        <div class="favor-wrapper">
+          <span style="font-size:0.8em; color:var(--text-secondary);">${q}</span>
+          <div class="favor-bar-container" style="--percent: ${F};">
+            <div class="favor-bar-fill ${G}" style="width: ${F}%;"></div>
+          </div>
+          <span class="favor-text-value ${G}">${A}</span>
+        </div>`}getRelationHtml(q,F=!1,A=!1){let G="";for(let[L,J]of q){let{关系:O,身份官职:W}=J,X=A?Q.ICONS.relink_relation:Q.ICONS.delete_relation;if(G+=`
+          <div class="rel-card subordinate-card">
+            <div class="rel-header">
+              <div class="rel-title-group">
+                <span class="rel-name">${L}</span>
+                <button class="${A?"rel-action-btn restore":"rel-action-btn delete"}" data-name="${L}" title="${A?"恢复联络":"断绝往来"}">${X}</button>
+              </div>
+              <div class="rel-tags">
+                ${W?`<span class="rel-tag">${W}</span>`:""}
+                ${O?`<span class="rel-tag">${O}</span>`:""}
+              </div>
+            </div>
+            <div class="rel-attitude" style="min-height:auto;"><div>
+              ${[J.当前状态?Q.ICONS.status+J.当前状态:"",J.对你的看法?Q.ICONS.thought+J.对你的看法:""].filter((E)=>E).join("</div><div>")}
+            </div></div>
+          `,!A&&J.type==="麾下"){let E=J.忠诚度||0,z=Math.max(0,Math.min(100,E));G+=this.getPercentageBar("忠诚",z,E,"positive")}let U=J.好感度||0,j=F?(Math.max(-100,Math.min(100,U))+100)/2:Math.max(0,Math.min(100,U)),T=U>=0?"positive":"negative";G+=this.getPercentageBar("好感",j,U,T),G+="</div>"}return G}getRelation(q,F,A=!1){let G=Object.entries(q).filter(([L,J])=>J.type===F).reverse();if(G.length===0)return`<div class="rel-empty" style="grid-column: 1 / -1; text-align: center;">暂无${F}</div>`;return this.getRelationHtml(G,A,!1)}getDeletedRelation(q){let F=Object.entries(q).reverse();if(F.length===0)return'<div class="rel-empty" style="grid-column: 1 / -1; text-align: center;">查无此人，皆有迹可循</div>';return this.getRelationHtml(F,!1,!0)}updateRelation(){let q=this.getValue("人际网络",{}),F=this.getValue("已删除角色",{});$("#list-subordinates").html(this.getRelation(q,"麾下")),$("#list-family").html(this.getRelation(q,"亲属")),$("#list-lovers").html(this.getRelation(q,"红颜")),$("#list-acquaintances").html(this.getRelation(q,"朝野",!0)),$("#list-deleted").html(this.getDeletedRelation(F));let A=this;return $(".rel-action-btn.delete").off("click").on("click",function(){let G=$(this).data("name"),L=$(this).closest(".rel-card");A.showConfirmModal("断交",G,"断交",()=>A.removeRelation(G,L))}),$(".rel-action-btn.restore").off("click").on("click",function(){let G=$(this).data("name"),L=$(this).closest(".rel-card");A.showConfirmModal("恢复与",G+" 的联络","重联",()=>A.restoreRelation(G,L))}),this}async removeRelation(q,F){try{let A=Mvu.getMvuData({type:"message",message_id:"latest"}),G=A.stat_data.人际网络||{},L=A.stat_data.已删除角色||{};if(G[q])L[q]=G[q],delete G[q],A.stat_data.人际网络=G,A.stat_data.已删除角色=L,await Mvu.replaceMvuData(A,{type:"message",message_id:"latest"})}catch(A){toastr.error("断绝往来失败: "+A.message);return}F.addClass("fade-out"),setTimeout(()=>{this.updateRelation()},500)}async restoreRelation(q,F){try{let A=Mvu.getMvuData({type:"message",message_id:"latest"}),G=A.stat_data.人际网络||{},L=A.stat_data.已删除角色||{};if(L[q])G[q]=L[q],delete L[q],A.stat_data.人际网络=G,A.stat_data.已删除角色=L,await Mvu.replaceMvuData(A,{type:"message",message_id:"latest"})}catch(A){toastr.error("恢复联络失败: "+A.message);return}F.addClass("fade-out"),setTimeout(()=>{this.updateRelation()},500)}updateHousehold(){let q=Object.entries(this.getValue("人际网络",{})).filter(([A,G])=>G.type==="内眷").reverse(),F="";if(q.length>0)for(let[A,G]of q){let L=Q.PORTRAITS[A]||"https://files.catbox.moe/o7pyrr.png",J=G.好感度||0,O=Math.max(0,Math.min(100,J)),W=J>=0?"positive":"negative";F+=`
+            <div class="consort-card">
+            <div class="card-face card-front">
+              <div class="consort-header">
+              <span class="consort-name">${A}</span>
+              <span class="consort-title">${G.关系||"女眷"}</span>
+              </div>
+              <div class="consort-details">
+              近况：<strong>${G.当前状态||"安居后宅"}</strong><br>
+              关注：<strong>${G.对你的看法||"无"}</strong>
+              </div>
+              <div class="favor-wrapper">
+              <span style="font-size:0.8em; color:var(--text-secondary);">好感</span>
+              <div class="favor-bar-container" style="--percent: ${O};">
+                <div class="favor-bar-fill ${W}" style="width: ${O}%;"></div>
+              </div>
+              <span class="favor-text-value ${W}">${J}</span>
+              </div>
+            </div>
+            <div class="card-face card-back" style="background-image: url('${L}');"></div>
+            </div>`}else F='<div style="grid-column: 1 / -1; text-align: center; padding: 40px 0;"><span class="info-value">暂无女眷入住</span></div>';return $("#list-household").html(F),$(".consort-card").off("click").on("click",function(){$(this).toggleClass("is-flipped")}),this}updatePlots(){let q={is_Adult:"冠礼大典",is_Fighting_Case_Resolved:"打驸马案",is_Married:"大婚仪轨",is_Jin_Retreated:"后金退兵",is_Yuan_Dead:"袁督亡故",is_Brother_Forgiven:"兄弟释怀",is_Sister_Forgiven:"姐妹重拾",is_Gumei_As_Gift:"清音之礼",is_Inheritance_Fight_Resolved:"家产纷争",is_LinDan_Dead:"林丹汗故",is_Jin_Civil_War:"后金内乱",is_HuangTaiji_Dead:"皇太极故"},F=this.getValue("剧情要点",{}),A=Object.entries(F).filter(([L,J])=>J!==!1),G="";if(A.length>0)G=A.reverse().map(([L,J])=>{let O=J.状态==="已完成",W=O?"completed":"triggered",X=(J.进程||[]).map((j)=>`<div class="plot-process-item">${j}</div>`).join(""),Y=`<div class="plot-tag ${W}">${J.状态==="已完成"?"事毕":"事起"}</div>`,B=[];if(J.触发时间)B.push(`起: ${J.触发时间}`);if(O&&J.完成时间)B.push(`结: ${J.完成时间}`);Y+=`<div>${B.join(" | ")}</div>`;let U=O&&J.结果?`<div class="plot-result">【结局】 ${J.结果}</div>`:"";return`
+              <div class="plot-item ${W}">
+                <div class="plot-header">
+                  <div class="plot-title">${q[L]||L}</div>
+                  <div class="plot-meta">${Y}</div>
+                </div>
+                <div class="plot-content">
+                  ${X}
+                  ${U}
+                </div>
+              </div>`}).join(`
 `);else G='<div class="bg-empty">风平浪静，暂无事端</div>';return $("#list-plots").html(G),this}getValue(q,F=null){return _.get(getAllVariables(),`stat_data.${q}`,F)}drawAll(){return this.updateTimeAndLocation().updateIdentity().updateTitle().updateReputation().updateHealth().updateSalary().updatePriv().updateAssets().updateIndustry().updateForce().updateSummary().updatePubStorage().updateEvents().updateCrossroad().updatePlots().updateRelation().updateHousehold(),this}}async function R(){await waitGlobalInitialized("Mvu");let q=new Q;eventOn(Mvu.events.VARIABLE_UPDATE_ENDED,()=>{q.drawAll()}),$(".faction-header").on("click",function(){$(this).parent().toggleClass("collapsed")}),$(".main-tab-btn").on("click",function(){$(".main-tab-btn").removeClass("active"),$(this).addClass("active");let F=$(this).data("target");if($(".tab-pane").removeClass("active"),$("#"+F).addClass("active"),F==="tab-map"&&q.map)setTimeout(()=>q.map.resize(),10)}),$(".sub-tab-btn").on("click",function(){$(".sub-tab-btn").removeClass("active"),$(this).addClass("active");let F=$(this).data("target");$(".sub-tab-pane").removeClass("active"),$("#"+F).addClass("active")})}$(errorCatched(R));
 
 //# sourceMappingURL=statusbar.js.map
